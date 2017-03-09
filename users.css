@@ -1,13 +1,13 @@
+/* ArkhamRobot [25096669] */
+
+#chat-messages .fromID-25096669 .badge-box i,
+#chat-messages .id-25096669 .badge-box i,
+#user-rollover.id-25096669 .badge-box > i.bdg,
 /* Alanvis100 [22640469] */
 
 #chat-messages .fromID-22640469 .badge-box i,
 #chat-messages .id-22640469 .badge-box i,
 #user-rollover.id-22640469 .badge-box > i.bdg,
-/* YouFoundSoccer [21169568] */
-
-#chat-messages .fromID-21169568 .badge-box i,
-#chat-messages .id-21169568 .badge-box i,
-#user-rollover.id-21169568 .badge-box > i.bdg,
 /* Thai_fighter2 [6455498] */
 
 #chat-messages .fromID-6455498 .badge-box i,
@@ -68,7 +68,6 @@
 #chat-messages .fromID-5382369 .badge-box i,
 #chat-messages .id-5382369 .badge-box i,
 #user-rollover.id-5382369 .badge-box > i.bdg,
-
 /* Gay Peter Pan [22954907] */
 
 #chat-messages .fromID-22954907 .badge-box i,
@@ -90,19 +89,18 @@
     background-repeat: no-repeat !important
 }
 /* Images Area */
+/* ArkhamRobot [25096669] */
+#chat-messages .fromID-25096669 .badge-box i,
+#chat-messages .id-25096669 .badge-box i,
+#user-rollover.id-25096669 .badge-box > i.bdg {
+    background-image: url(https://i.imgur.com/FHjv5ki.png);
+}
 /* Alanvis100 [22640469] */
 
 #chat-messages .fromID-22640469 .badge-box i,
 #chat-messages .id-22640469 .badge-box i,
 #user-rollover.id-22640469 .badge-box > i.bdg {
     background-image: url(https://i.imgur.com/4BqaF5k.gif);
-}
-/* YouFoundSoccer [21169568] */
-
-#chat-messages .fromID-21169568 .badge-box i,
-#chat-messages .id-21169568 .badge-box i,
-#user-rollover.id-21169568 .badge-box > i.bdg {
-    background-image: url(https://i.imgur.com/KMB3t0O.gif);
 }
 /* Thai_fighter2 [6455498] */
 
@@ -111,7 +109,6 @@
 #user-rollover.id-6455498 .badge-box > i.bdg {
     background-image: url(https://i.imgur.com/uOt6rlJ.png);
 }
-
 /* Raptorella [13503067] */
 
 #chat-messages .fromID-13503067 .badge-box i,
@@ -138,7 +135,7 @@
 #chat-messages .fromID-6068715 .badge-box i,
 #chat-messages .id-6068715 .badge-box i,
 #user-rollover.id-6068715 .badge-box > i.bdg {
-    background-image: url(https://i.imgur.com/IVHSF00.png);
+    background-image: url(https://i.imgur.com/ArNFQ.gif);
 }
 /* |V|cNerdx [5676670] */
 
