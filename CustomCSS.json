@@ -1,8 +1,8 @@
 {
     "room":"♫ ArkhamNetwork ♫",
-    "author":"ArhkamBot",
+    "author":"Created by - JordanThePanda",
     "icon":null,
-    "css":"https://skillsaura.github.io/style.css",
+    "css":"https://SkillsAura.github.io/PlugStyle.css",
     "rules":{
         "allowAutorespond":true,
         "allowAutowoot":true,
