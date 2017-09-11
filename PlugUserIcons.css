@@ -1,6 +1,10 @@
 /* Event Winners - Custom Icons Section */
-/* PumpkinNinja [7119719] */
-.cm.id-7119719 .from .un.clickable:after,
+/* NinjaPanda - Plug.Dj [16805665] */
+.cm.id-16805665 .from .un.clickable:after,
+/*  iSwiftW/tap [25081553] */
+.cm.id-25081553 .from .un.clickable:after,
+/*  z7 [6212535] */
+.cm.id-6212535 .from .un.clickable:after,
 
 /* Thai_Fighter2 [6455498] */
 .cm.id-6455498 .from .un.clickable:after,
@@ -31,7 +35,7 @@
 
 /* |V|cNerdx [5676670] */
 .cm.id-5676670 .from .un.clickable:after {
-    content: url("https://i.imgur.com/ChnKtz9.png") !important;
+    content: url("https://i.imgur.com/8nSyBV9.png") !important;
     top: 3px;
     right: -3px;
     position: relative;
@@ -39,12 +43,28 @@
 
 /* Developer | Other Custom Icons Section */
 /* Jøґ∂αη†♄εℙαηḓα [22670452] */
-
-.cm.id-22670452 .from  .icon-chat-dj:before {
+/*
+.cm.id-22670452 .from  .icon-chat-bouncer:before {
     content: url("https://i.imgur.com/1eYsr84.png") !important;
     right: 16px;
     position: absolute;
 }
-.cm.id-22670452 .from .icon-chat-dj {
+.cm.id-22670452 .from .icon-chat-bouncer {
     margin-left: 16px
+}
+*/
+/* Birthday Icon */
+/*
+.cm.id-6708885 .from .un.clickable:after {
+    content: url("https://i.imgur.com/sRoyIDN.gif") !important;
+    top: 3px;
+    right: -3px;
+    position: relative;
+}
+*/
+.cm.id-5382369 .from .un.clickable:after {
+    content: url(https://i.imgur.com/ufbuDM4.png") !important;
+    top: 3px;
+    right: -3px;
+    position: relative;
 }

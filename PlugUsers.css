@@ -1,8 +1,23 @@
-/* PumpkinNinja [7119719] */
+/* NinjaPanda - Plug.Dj [16805665] */
 
-#chat-messages .fromID-7119719 .badge-box i,
-#chat-messages .id-7119719 .badge-box i,
-#user-rollover.id-7119719 .badge-box > i.bdg,
+#chat-messages .fromID-16805665 .badge-box i,
+#chat-messages .id-16805665 .badge-box i,
+#user-rollover.id-16805665 .badge-box > i.bdg,
+/*  WarriorCatsRox [6432868] */
+
+#chat-messages .fromID-6432868 .badge-box i,
+#chat-messages .id-6432868 .badge-box i,
+#user-rollover.id-6432868 .badge-box > i.bdg,
+/*  ISwiftWTap [25081553] */
+
+#chat-messages .fromID-25081553 .badge-box i,
+#chat-messages .id-25081553 .badge-box i,
+#user-rollover.id-25081553 .badge-box > i.bdg,
+/*  z7 [6212535] */
+
+#chat-messages .fromID-6212535 .badge-box i,
+#chat-messages .id-6212535 .badge-box i,
+#user-rollover.id-6212535 .badge-box > i.bdg,
 /* ArkhamRobot [25096669] */
 
 #chat-messages .fromID-25096669 .badge-box i,
@@ -94,18 +109,33 @@
     background-repeat: no-repeat !important
 }
 /* Images Area */
-/* Grace [20789834] */
-#chat-messages .fromID-20789834 .badge-box i,
-#chat-messages .id-20789834 .badge-box i,
-#user-rollover.id-20789834 .badge-box > i.bdg {
-    background-image: url(https://i.imgur.com/irOvFwa.jpg);
-}
-/* PumpkinNinja [7119719] */
+/* NinjaPanda - Plug.Dj [16805665] */
 
-#chat-messages .fromID-7119719 .badge-box i,
-#chat-messages .id-7119719 .badge-box i,
-#user-rollover.id-7119719 .badge-box > i.bdg {
-    background-image: url(https://i.imgur.com/j9XgOmd.png);
+#chat-messages .fromID-16805665 .badge-box i,
+#chat-messages .id-16805665 .badge-box i,
+#user-rollover.id-16805665 .badge-box > i.bdg {
+    background-image: url(https://i.imgur.com/SMrNEwy.png);
+}
+/*  WarriorCatsRox [6432868] */
+
+#chat-messages .fromID-6432868 .badge-box i,
+#chat-messages .id-6432868 .badge-box i,
+#user-rollover.id-6432868 .badge-box > i.bdg {
+    background-image: url(https://i.imgur.com/XEOnKCS.png);
+}
+/*  ISwiftWTap [25081553] */
+
+#chat-messages .fromID-25081553 .badge-box i,
+#chat-messages .id-25081553 .badge-box i,
+#user-rollover.id-25081553 .badge-box > i.bdg {
+    background-image: url(https://i.imgur.com/PgrzfM1.jpg);
+}
+/*  z7 [6212535] */
+
+#chat-messages .fromID-6212535 .badge-box i,
+#chat-messages .id-6212535 .badge-box i,
+#user-rollover.id-6212535 .badge-box > i.bdg {
+    background-image: url(https://i.imgur.com/mMdyhwz.jpg);
 }
 /* ArkhamRobot [25096669] */
 
@@ -168,21 +198,21 @@
 #chat-messages .fromID-13490395 .badge-box i,
 #chat-messages .id-13490395 .badge-box i,
 #user-rollover.id-13490395 .badge-box > i.bdg {
-    background-image: url(https://i.imgur.com/mtfhebO.jpg);
+    background-image: url(https://i.imgur.com/TOLiM4L.jpg);
 }
 /* Smash|smashbro12 [8452233] */
 
 #chat-messages .fromID-8452233 .badge-box i,
 #chat-messages .id-8452233 .badge-box i,
 #user-rollover.id-8452233 .badge-box > i.bdg {
-    background-image: url(https://i.imgur.com/sQY3pxD.png);
+    background-image: url(https://i.imgur.com/DP1pWzG.png);
 }
 /* Skorpion9001 [18182332] */
 
 #chat-messages .fromID-18182332 .badge-box i,
 #chat-messages .id-18182332 .badge-box i,
 #user-rollover.id-18182332 .badge-box > i.bdg {
-    background-image: url(https://i.imgur.com/GbN3VPK.png);
+    background-image: url(https://i.imgur.com/QpiGp2O.png);
 }
 /* WɪʟᴅFᴏxMᴀɴ [6708885] */
 
@@ -203,7 +233,7 @@
 #chat-messages .fromID-5382369 .badge-box i,
 #chat-messages .id-5382369 .badge-box i,
 #user-rollover.id-5382369 .badge-box > i.bdg {
-    background-image: url(https://i.imgur.com/e1izKpK.gif);
+    background-image: url(https://i.imgur.com/Bbd6PiU.gif);
 }
 /* GayPeterPan [22954907] */
 

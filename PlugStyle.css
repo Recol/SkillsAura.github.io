@@ -1,19 +1,18 @@
-/* This section of code is due to be completely redone */
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - Importing Other CSS Style Sheets - - - - - - - --  - - - - - - - - - - - - - - */
+
+
 @import url("https://SkillsAura.github.io/PlugUsers.css");
 @import url("https://SkillsAura.github.io/PlugStaff.css");
 @import url("https://SkillsAura.github.io/PlugUserIcons.css");
 @import url("https://SkillsAura.github.io/Other.css");
 @import url("https://fonts.googleapis.com/css?family=Orbitron");
 
-/* Room Background */
-/*
-.room-background {
-    background-image: url(https://i.imgur.com/fSex6bQ.png) !important;
-}
-*/
-#playback .background {
-    display: none !important;
-}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - Styling Things @ Room Header Section  - - -  - - - - - - - - - - - - - - - - - */
+
+
 /* Room Icon */
 
 #room-host,
@@ -33,6 +32,11 @@ i.icon.icon-room {
     width: 0px;
     height: 0px;
     background-size: 75%;
+}
+/* Room Background */
+
+#playback .background {
+    display: none !important;
 }
 /* App Header */
 
@@ -64,6 +68,11 @@ i.icon.icon-room {
     background: linear-gradient(to right, rgba(153, 50, 204, 1) 0, rgba(191, 95, 255, 1) 100%)!important;
     box-shadow: 0 0 10px rgba(200, 48, 2, 1) !important;
 }
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - Styling Things @ Room Header Left Section  - - - - - - - - - - - - - - - - - - - - - - */
+
+
 /* App Header Buttons Selected */
 
 #users-button.header-panel-button.selected,
@@ -76,59 +85,169 @@ i.icon.icon-room {
     border-left: 1px solid rgb(0, 0, 0);
     border-right: 1px solid rgb(0, 0, 0);
 }
-/* Chat Area */
+/* Plug DJ far left tab */
 
-#chat-messages {
-         background: rgba(8, 25, 69, 1);
+#app-menu.open {
+  background: rgba(4, 13, 36, 1);
 }
-#room .app-right .cm.log {
-         background: rgba(8, 25, 69, 1);
+#app-menu.open .list { 
+  background: rgba(8, 25, 69, 1);
 }
-#chat .cm {
-	background: rgba(4, 13, 36, 1);
-	box-shadow: inset 1px 1px 0 hsla(220,10%,20%,.8);
-	animation: fadein .2s;
+#app-menu.in-room .list .item:hover,
+#app-menu .list .rcsunload:hover,
+#app-menu .list .logout:hover {
+ background: rgba(4, 13, 36, 1) !important;
 }
-#chat .cm.message:nth-child(odd) {
-	background: rgba(8, 25, 69, 1);
-	box-shadow: inset 1px 1px 0 hsla(220,10%,5%,.8);
+/* Community Settings Menu */
+
+#room-settings-menu {
+     background: rgba(4, 13, 36, 1);
 }
-#chat .cm .delete-button {
-	border-radius: 4px;
-	background: linear-gradient(hsl(0,0%,30%), hsl(0,0%,40%));
-	box-shadow: inset 0 0 0 1px hsl(0,0%,50%);
+#room-settings .general-settings {
+     background:  rgba(8, 25, 69, 1);
+     text-shadow: 1px -1px rgb(0, 0, 0);
 }
-#chat .cm .delete-button:hover {
-	background: linear-gradient(hsl(5,100%,60%), hsl(5,100%,50%));
-	box-shadow: 0 0 10px hsl(5,100%,50%);
-	color: #000;
+/* History Menu */
+
+#history-panel .media-list .container {
+   background:  rgba(8, 25, 69, .9);
+}
+#history-panel .media-list.history .row.selected {
+   background: linear-gradient(-90deg, rgba(21, 67, 183, .75) 0, rgba(8, 25, 69, 
+   .75) 100%);
+}
+#history-panel .media-list .row .actions,
+#history-panel .media-list .row.selected .actions {
+    background: rgb(4, 13, 36);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    top: 0px;
+    right: 0px;
+    height: 75px !important;
+}
+#history-panel .media-list .actions div i, .media-list.history .actions div i {
+  top: 25px ;
+  left: 20px;
+}
+.pop-menu .bar {
+    background: rgb(8, 25, 69);	 
+}
+.pop-menu ul {
+    background: rgb(4, 13, 36) !important;	
+}
+.media-list.history .meta .name,
+.media-list.history .meta .timestamp {
+   right: 50px;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - Styling Things @ Room Header Right Section  - - - - - - - - - - - - - - - - - - - - - - */
+
+
+/* User List Hover (Peoples Tab) */
+
+#user-lists .list .user:hover {
+background: linear-gradient(-90deg, rgba(21, 67, 183, 1) 0, rgba(8, 25, 69, 1) 100%);
+transform: translate(5px);
+width: initial;
+top: 10px;
+}
+#user-lists .list .user {
+top: 10px;
+}
+#user-lists .list.staff .group {
+    background: rgba(8, 25, 69, .75) !important;   
+}
+#user-lists .list-header .input-background,
+.app-right .friends .list-header .input-background,
+#filter-bar,
+#search-bar,
+#rcs-search {
+    background: rgba(8, 25, 69, 1) !important;
+}
+/* Dj Waitlist Tab */
+
+#waitlist .list .user {
+  background: rgb(4, 13, 36);
+}
+#waitlist .list .user:hover {
+  transform: translate(5px);
+  background-color: rgb(4, 13, 36);
+}
+/* Friends Tab */
+.app-right .friends .list-header,
+.app-right .friends .list .row {
+  background: rgb(4, 13, 36);
+}
+.app-right .friends .list .row.clickable:hover,
+.app-right .friends .list .row.is-offline:hover {
+  transform: translate(5px);
+  background-color: rgb(4, 13, 36);
+}
+.jspContainer {
+   background: rgb(4, 13, 36);
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - Styling Chat Sections @ User Rollover  - - - - - - - - - - - - - - - - - - - - - - */
+
+
+/* Chat Section */
+
+#room .app-right,
+#room .app-right .cm.log,
+#room .app-right .cm.message,
+#room .app-right .cm.moderation,
+#room .app-right .cm.user-action,
+#room .app-right .cm.emote,
+#room .app-right .cm.user-mentioned,
+#room .app-right .cm-system,
+#msg {
+    background: rgba(4, 13, 36, 1);
+}
+#room .app-right .cm.log:nth-child(odd),
+#room .app-right .cm.message:nth-child(odd),
+#room .app-right .cm.moderation:nth-child(odd),
+#room .app-right .cm.user-action:nth-child(odd),
+#room .app-right .cm.emote:nth-child(odd),
+#room .app-right .cm.user-mentioned:nth-child(odd),
+#room .app-right .cm-system:nth-child(odd),
+#msg {
+    background: rgba(8, 25, 69, 1);
 }
 #room .app-right .cm.mention {
-   background: linear-gradient(-90deg, rgba(21, 67, 183, 1) 0, rgba(8, 25, 69, 1) 100%)
+    background: linear-gradient(-90deg, rgba(21, 67, 183, 1) 0, rgba(8, 25, 69, 1) 100%)
 }
-#chat {
-    background: rgba(4,13, 36, 1);
+#rs-toggle-sidebar {
+  background: rgb(4, 13, 36) 
+  url(https://cdn.radiant.dj/rcs/icons/plugdj/arrowright.png) !important;
+  background-position-x: center !important;
+  background-position-y: center !important;
 }
-#chat-input {
-    border-radius: 30px;
-    background: rgba(8, 25, 69, 1) !important;
+/* Chat Hover Delete Buttons */
+
+.rcs-small-delete {
+  background: rgb(10, 33, 92) !important;
 }
 /* Chat Hover */
 
-#chat-messages  .cm:not(.log):hover:hover {
-    transform: translate(5px);
-}
-#chat .cm.message:nth-child(odd) .cm:not(.log):hover:hover { 
+#chat-messages  .cm:not(.log):hover:hover,
+#chat .cm.message:nth-child(odd) .cm:not(.log):hover:hover {
     transform: translate(5px);
 }
 #user-lists .list .user,
 #chat-messages .message,
-#chat-messages .cm,
-#chat .cm.message:nth-child(odd) {
+#chat-messages .cm {
         -webkit-transition:     all 0.3s ease;
         -moz-transition:        all 0.3s ease;
         -o-transition:          all 0.3s ease;
         transition:             all 0.3s ease;
+}
+/* Chat Input Area */
+
+#chat-input {
+    border-radius: 30px;
+    background: rgba(8, 25, 69, 1);
 }
 /* User-rollover Section */
 
@@ -187,6 +306,10 @@ i.icon.icon-room {
 #user-rollover .actions .mod-ban:hover .icon-ban {
     transform: scale(1.2);   
 }
+
+/* - - - - - - - - - - - - - - - - - - -  Styling Vote | DJ Booth Buttons | Toast Notifications - - - - - - - - - - - - - - - - - - - */
+
+
 /* Vote Buttons */
 
 #woot .bottom,
@@ -220,7 +343,7 @@ i.icon.icon-room {
 @keyframes woot {
     0% {background-color: #00ff00;}
     50% {background-color: #008000;}
-   100% {background-color: #00ff00;}
+    100% {background-color: #00ff00;}
 }
 #grab.selected {
     animation:grab 3s infinite;
@@ -243,6 +366,19 @@ i.icon.icon-room {
     0% {background-color: #ff0000;}
     50% {background-color: #660000;}
     100% {background-color: #ff0000;}
+}
+/* Woot | Grab | Meh Hover List */
+
+.votes-rs i {
+  margin-left: 30%;
+}
+.votes-rs .title.woot, 
+.votes-rs .title.grab,
+.votes-rs .title.meh {
+  background: rgba(4, 13, 36, .75) !important;
+}
+.votes-rs .voteslist {
+  background: rgba(8, 25, 69, .75);
 }
 /* DJ join|leave|locked Buttons */
 
@@ -278,6 +414,124 @@ i.icon.icon-room {
 #dj-button.is-locked .left {
      background: linear-gradient(to top, rgba(96, 0, 0, .75)10%, rgba(255, 255, 255, .05)90%) !important;
 }
+/* Toast Notifications */
+
+#toast-notifications .notification .left {
+   background: rgba(4, 13, 36, 1);
+}
+#toast-notifications .notification .right {
+   background: rgba(8, 25, 69, 1);
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - Styling Things @ Room Footer Section  -  - -- -  - - - - - - - - - - - - - - - - - */
+
+
+/* Footer */
+
+#footer {
+    background: linear-gradient(to bottom, rgba(16, 33, 156, 1) 0, rgba(4, 13, 36, 1) 100%)!important;
+}
+/* User Info View */
+
+#footer-user .info {
+   background: rgba(8, 25, 69, 1) !important;
+}
+#footer-user .info .meta div.bar {
+  background: rgba(4, 13, 36, 1);
+  border-radius: 25px;
+}
+#footer-user .info .bar .progress {
+   background: linear-gradient(to right, rgb(0, 156, 221) 0, rgb(0, 179, 255) 100%);
+   border-radius: 25px;
+}
+/* Playlist Menu */
+
+#playlist-panel,
+.media-list .container {
+    background:  rgba(8, 25, 69, .9);
+    text-shadow: 1px -1px rgb(0, 0, 0);
+}
+#playlist-menu .title {
+    color: rgb(255, 255, 255);
+}
+#media-panel .header,
+#playlist-menu,
+#search {
+    background: rgba(4, 13, 36, 1);   
+}
+.playlist-media .actions,
+.playlist-media .selected .actions,
+.media-list .actions,
+.media-list .selected .actions {
+   background: rgba(4, 13, 36, 1);   
+   border-top-left-radius: 25px;
+   border-bottom-left-radius: 25px;
+   height: 55px;
+}
+#playlist-menu .menu .row.selected,
+.media-list .row.selected,
+#search-suggestion li:hover {
+   background: linear-gradient(-90deg, rgba(21, 67, 183, 1) 0, rgba(8, 25, 69, 
+   1) 100%);
+}
+#search-suggestion li {
+   background:  rgba(8, 25, 69, 1);
+}
+#playlist-edit-button:hover i,
+#playlist-activate-button:hover i,
+#playlist-shuffle-button:hover i,
+#playlist-delete-button:hover i,
+#playlist-menu .button:hover i,
+.media-list .actions .action.edit:hover .icon, 
+.media-list .actions .action.related:hover .icon,
+.media-list .actions .action.move-to-bottom:hover .icon,
+.media-list .actions .action.move-to-top:hover .icon,
+.media-list .actions .action.delete:hover .icon {
+    transform: scale(1.2);
+}
+.menu .container .row,
+.menu .container .row:hover,
+#playlist-edit-button:hover i,
+#playlist-activate-button:hover i,
+#playlist-shuffle-button:hover i,
+#playlist-delete-button:hover i,
+#playlist-menu .button:hover i,
+.media-list .actions .action.edit:hover .icon, 
+.media-list .actions .action.related:hover .icon,
+.media-list .actions .action.move-to-bottom:hover .icon,
+.media-list .actions .action.move-to-top:hover .icon,
+.media-list .actions .action.delete:hover .icon,
+.media-list .actions .action.edit .icon, 
+.media-list .actions .action.related .icon,
+.media-list .actions .action.move-to-bottom .icon,
+.media-list .actions .action.move-to-top .icon,
+.media-list .actions .action.delete .icon,
+.app-right .friends .list .row.clickable:hover,
+.app-right .friends .list .row:hover,
+.app-right .friends .list .row.is-offline:hover,
+#waitlist .list .user:hover {
+    -webkit-transition:     all 0.3s ease;
+    -moz-transition:        all 0.3s ease;
+    -o-transition:          all 0.3s ease;
+    transition:             all 0.3s ease;
+}
+#search-menu,
+#search-menu:hover>.selected,
+#search-menu .select,
+#search-menu li.last,
+#search-menu li.youtube {
+    background: rgba(8, 25, 69, 1);
+}
+#search-menu li:hover,
+#search-menu li.youtube:hover {
+    background: rgba(4, 13, 36, 1);
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - Styling Room Scrollbars  - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
 /* Scrollbars */
 
 #chat-messages::-webkit-scrollbar,
@@ -300,8 +554,7 @@ i.icon.icon-room {
     box-shadow: inset 1px 0 7px hsla(0, 0%, 100%, .2);
     border-radius: 5px;
 }
-/* Footer */
 
-#footer {
-    background: linear-gradient(to bottom, rgba(16, 33, 156, 1) 0, rgba(4, 13, 36, 1) 100%)!important;
-}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - End of CSS Styling - - - - - - -  - - - - - - - - - - - - - - - - - - - - - */
+
